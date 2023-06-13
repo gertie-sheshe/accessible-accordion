@@ -1,0 +1,17 @@
+@import "@accordion/styles/theme.scss";
+
+.container {
+  padding: 15px;
+
+  @include sm {
+    padding: 20px;
+  }
+
+  @include md {
+    padding: 50px;
+  }
+
+  @include lg {
+    padding: 100px;
+  }
+}

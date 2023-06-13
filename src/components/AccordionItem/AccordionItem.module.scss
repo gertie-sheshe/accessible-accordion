@@ -1,0 +1,38 @@
+@import "@accordion/styles/theme.scss";
+
+.accordionButton {
+  width: 100%;
+  height: 100px;
+  background-color: $accent-orange-bright;
+  border: none;
+  border-left: solid 10px $accent-orange-deep;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  // border-radius: 4px;
+  text-align: left;
+}
+
+.accordionButton[aria-expanded="true"] {
+  background-color: #eef1fb;
+  border-left: solid 10px #bdccfb;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.buttonIcon {
+  margin-right: 5px;
+}
+
+.roleRegion {
+  background-color: #eef1fb;
+  border-left: solid 10px #bdccfb;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.roleRegion[hidden] {
+  display: none;
+}

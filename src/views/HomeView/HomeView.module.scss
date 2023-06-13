@@ -1,0 +1,34 @@
+@import "@accordion/styles/theme.scss";
+
+.accordionContainer {
+  display: flex;
+  flex-direction: column;
+  // height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordionGroup {
+  background-color: $tertiary-light;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 100%;
+
+  @include sm {
+    width: 500px;
+    padding: 20px;
+  }
+
+  @include lg {
+    width: 600px;
+    padding: 40px;
+  }
+}
+
+.accordionItemContainer {
+  margin: 5px 0px;
+}
+.header {
+  margin: 20px 0px;
+}

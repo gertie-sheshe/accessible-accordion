@@ -1,0 +1,97 @@
+$background: #f4edea;
+
+// Greys
+$primary-dark: #212529;
+$primary: #343a40;
+$primary-light: #495057;
+
+$secondary-dark: #6c757d;
+$secondary: #adb5bd;
+$secondary-light: #ced4da;
+
+$tertiary-dark: #dee2e6;
+$tertiary: #e9ecef;
+$tertiary-light: #f8f9fa;
+
+// Accent Colors
+$accent-black-deep: #090c0f;
+$accent-black-dark: #0e1115;
+$accent-black-mid: #13171a;
+$accent-black-primary: #181c20;
+$accent-black-moderate: #1d2125;
+
+$accent-lilac-deep: #533153;
+$accent-lilac-dark: #704270;
+$accent-lilac-mid: #8d538d;
+$accent-lilac-primary: #c8a2c8;
+$accent-lilac-moderate: #d5b3d5;
+$accent-lilac-light: #e2c4e2;
+$accent-lilac-bright: #f7f1fd;
+
+$accent-orange-deep: #fba400;
+$accent-orange-dark: #ffb52a;
+$accent-orange-mid: #ffc558;
+$accent-orange-primary: #ffe5b4;
+$accent-orange-moderate: #fff0c9;
+$accent-orange-light: #fff6d9;
+$accent-orange-bright: #fdeee3;
+
+// breakpoints
+$screen-sm-min: 768px;
+$screen-md-min: 1152px;
+$screen-lg-min: 1440px;
+$screen-xl-min: 1920px;
+// add more variables as needed
+
+// Breakpoints mixins
+@import "./mixins.scss";
+
+// Headings
+.h1 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+
+  @include sm {
+    font-size: 1.5rem;
+  }
+
+  @include md {
+    font-size: 2rem;
+  }
+
+  @include lg {
+    font-size: 2.4rem;
+  }
+
+  @include xl {
+    font-size: 3rem;
+  }
+}
+
+.h2 {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+
+  @include sm {
+    font-size: 1.25rem;
+  }
+
+  @include md {
+    font-size: 1.4rem;
+  }
+
+  @include lg {
+    font-size: 1.4rem;
+  }
+
+  @include xl {
+    font-size: 2rem;
+  }
+}
+
+// Button
+.button {
+  font-family: inherit;
+}
