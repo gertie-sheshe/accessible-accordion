@@ -1,5 +1,5 @@
 # Accordion Built to Meet Accessible Accordion Pattern
-[![Screenshot-2023-06-13-at-17-59-33.png](https://i.postimg.cc/g26pWB5y/Screenshot-2023-06-13-at-17-59-33.png)](https://postimg.cc/zy56wpq3)
+[![Screenshot-2023-06-13-at-18-02-04.png](https://i.postimg.cc/c4yYhhCM/Screenshot-2023-06-13-at-18-02-04.png)](https://postimg.cc/XXLp7wwp)
 
 This accordion component has been developed in adherence to the accessible accordion patterns outlined by the Web Accessibility Initiative's Accessible Rich Internet Applications (WAI-ARIA) guidelines.
 
