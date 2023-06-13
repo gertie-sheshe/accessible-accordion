@@ -25,6 +25,7 @@ const AccordionItem = ({ title, id, children }) => {
             <Image
               src={isExpanded ? closeIcon : openIcon}
               alt=""
+              aria-hidden="true"
               width={30}
               height={30}
             />
