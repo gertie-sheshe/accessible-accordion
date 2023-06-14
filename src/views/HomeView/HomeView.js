@@ -21,7 +21,7 @@ const HomeView = () => {
           </AccordionItem>
         </div>
         <div className={styles.accordionItemContainer}>
-          <AccordionItem title="Shipping Address" id="billingAddress">
+          <AccordionItem title="Shipping Address" id="shippingAddress">
             <BillingForm />
           </AccordionItem>
         </div>

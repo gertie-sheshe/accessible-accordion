@@ -36,7 +36,7 @@ const AccordionItem = ({ title, id, children }) => {
       <div
         role="region"
         className={styles.roleRegion}
-        aria-labelledby="personalInformation"
+        aria-labelledby={id}
         id={`section-${id}`}
         hidden={!isExpanded}
       >
